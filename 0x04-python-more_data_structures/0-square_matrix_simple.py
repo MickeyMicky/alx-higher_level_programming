@@ -6,8 +6,8 @@ def square_matrix_simple(matrix=[]):
     all integers of a matrix.
     """
     newMatrix = matrix.copy()
-    
+
     for i in range(len(matrix)):
         newMatrix[i] = list(map(lambda x: x**2, matrix[i]))
-        
+
     return newMatrix
